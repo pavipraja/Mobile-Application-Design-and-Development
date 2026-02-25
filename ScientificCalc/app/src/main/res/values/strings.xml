@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Scientific_Calculator</string>
+    <string name="text_0">0</string>
+    <string name="text_c">C</string>
+    <string name="text_sin">SIN</string>
+    <string name="text_cos">COS</string>
+    <string name="text_tan">TAN</string>
+    <string name="text_log">LOG</string>
+    <string name="text_root">√</string>
+    <string name="text_divide">÷</string>
+    <string name="text_multiply">×</string>
+    <string name="text_7">7</string>
+    <string name="text_8">8</string>
+    <string name="text_9">9</string>
+    <string name="text_minus">-</string>
+    <string name="text_4">4</string>
+    <string name="text_5">5</string>
+    <string name="text_6">6</string>
+    <string name="text_plus">+</string>
+    <string name="text_1">1</string>
+    <string name="text_2">2</string>
+    <string name="text_3">3</string>
+    <string name="text_equal">=</string>
+    <string name="text_dot">.</string>
+</resources>

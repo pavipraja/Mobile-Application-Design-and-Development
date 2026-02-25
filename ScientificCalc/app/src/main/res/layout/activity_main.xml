@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="12dp">
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="30dp"
+        android:background="#1E1E1E"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:text="@string/text_0"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_marginTop="25dp">
+
+        <!-- Row 1 -->
+        <Button android:text="@string/text_c" android:id="@+id/btnc" android:layout_columnSpan="2" style="@style/operatorBtn"/>
+        <Button android:text="@string/text_sin" android:id="@+id/btnsin" style="@style/functionBtn"/>
+        <Button android:text="@string/text_cos" android:id="@+id/btncos" style="@style/functionBtn"/>
+        <Button android:text="@string/text_tan" android:id="@+id/btntan" style="@style/functionBtn"/>
+
+        <!-- Row 2 -->
+        <Button android:text="@string/text_log" android:id="@+id/btnlog" style="@style/functionBtn"/>
+        <Button android:text="@string/text_root" android:id="@+id/btnroot" style="@style/functionBtn"/>
+        <Button android:text="@string/text_divide" android:id="@+id/btndiv" style="@style/operatorBtn"/>
+        <Button android:text="@string/text_9" android:id="@+id/but9" style="@style/numberBtn"/>
+        <Button android:text="@string/text_8" android:id="@+id/but8" style="@style/numberBtn"/>
+
+        <Button android:text="@string/text_7" android:id="@+id/but7" style="@style/numberBtn"/>
+
+        <!-- Row 3 -->
+        <Button android:text="@string/text_multiply" android:id="@+id/multiply" style="@style/operatorBtn"/>
+
+
+
+
+        <!-- Row 4 -->
+        <Button android:text="@string/text_6" android:id="@+id/but6" style="@style/numberBtn"/>
+        <Button android:text="@string/text_5" android:id="@+id/but5" style="@style/numberBtn"/>
+        <Button android:text="@string/text_4" android:id="@+id/but4" style="@style/numberBtn"/>
+        <Button android:text="@string/text_minus" android:id="@+id/butminus" style="@style/operatorBtn"/>
+
+
+
+        <!-- Row 5 -->
+        <Button android:text="@string/text_3" android:id="@+id/btn3" style="@style/numberBtn"/>
+        <Button android:text="@string/text_2" android:id="@+id/btn2" style="@style/numberBtn"/>
+        <Button android:text="@string/text_1" android:id="@+id/btn1" style="@style/numberBtn"/>
+        <Button android:text="@string/text_plus" android:id="@+id/butplus" style="@style/operatorBtn"/>
+
+        <!-- Row 6 -->
+        <Button android:text="@string/text_dot" android:id="@+id/btndot" style="@style/numberBtn"/>
+        <Button android:text="@string/text_0" android:id="@+id/btn0" android:layout_columnSpan="2" style="@style/numberBtn"/>
+        <Button android:text="@string/text_equal" android:id="@+id/butEqual" style="@style/operatorBtn"/>
+
+
+    </GridLayout>
+
+</LinearLayout>
