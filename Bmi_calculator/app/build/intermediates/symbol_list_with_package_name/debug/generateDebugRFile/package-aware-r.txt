@@ -1,0 +1,17 @@
+com.example.bmicalculator
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnCalculate
+id etHeight
+id etWeight
+id tvResult
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base_Theme_BMICalculator
+style Theme_BMICalculator
+xml backup_rules
+xml data_extraction_rules

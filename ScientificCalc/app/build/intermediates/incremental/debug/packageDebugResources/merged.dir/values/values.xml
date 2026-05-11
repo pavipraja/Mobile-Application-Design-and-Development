@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Scientific_Calculator</string>
+    <string name="text_0">0</string>
+    <string name="text_1">1</string>
+    <string name="text_2">2</string>
+    <string name="text_3">3</string>
+    <string name="text_4">4</string>
+    <string name="text_5">5</string>
+    <string name="text_6">6</string>
+    <string name="text_7">7</string>
+    <string name="text_8">8</string>
+    <string name="text_9">9</string>
+    <string name="text_c">C</string>
+    <string name="text_cos">COS</string>
+    <string name="text_divide">÷</string>
+    <string name="text_dot">.</string>
+    <string name="text_equal">=</string>
+    <string name="text_log">LOG</string>
+    <string name="text_minus">-</string>
+    <string name="text_multiply">×</string>
+    <string name="text_plus">+</string>
+    <string name="text_root">√</string>
+    <string name="text_sin">SIN</string>
+    <string name="text_tan">TAN</string>
+    <style name="Base.Theme.ScientificCalc" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ScientificCalc" parent="Base.Theme.ScientificCalc"/>
+    <style name="functionBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:backgroundTint">#2C2C2C</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="numberBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:backgroundTint">#757575</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="cornerSize">2dp</item>
+    </style>
+    <style name="operatorBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:backgroundTint">#D37C04</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
